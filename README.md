@@ -65,8 +65,9 @@ Proses tuning dilakukan menggunakan **manual grid search** (tanpa `GridSearchCV`
 Untuk mengatasi **class imbalance**, digunakan parameter:
 - `scale_pos_weight` (dihitung otomatis dari data training)
 
----
 
+
+```markdown
 ## 📁 Struktur Folder
 
 ```text
@@ -78,20 +79,9 @@ Untuk mengatasi **class imbalance**, digunakan parameter:
 │   ├── runtime.txt
 │   │
 │   ├── ml
-│   │   ├── check_npm_range.py
-│   │   ├── connect.py
-│   │   ├── predict.py
-│   │   ├── preprocessing.py
-│   │   ├── save_encoder.py
-│   │   ├── save_scaler.py
-│   │   ├── test_load.py
-│   │   ├── test_preprocess.py
 │   │   ├── train_class.py
 │   │   ├── train_regression.py
-│   │   ├── validate_model.py
-│   │   └── __pycache__
-│   │       ├── connect.cpython-312.pyc
-│   │       └── preprocessing.cpython-312.pyc
+│   │   └── preprocessing.py
 │   │
 │   └── __pycache__
 │       └── main.cpython-312.pyc
@@ -99,10 +89,8 @@ Untuk mengatasi **class imbalance**, digunakan parameter:
 └── database_NPM
     ├── docker-compose.yml
     ├── NPM.xlsx
-    ├── NPM_202512281546.sql
     └── init
 
----
 
 ## 🖥️ Spesifikasi Sistem
 
