@@ -68,38 +68,40 @@ Untuk mengatasi **class imbalance**, digunakan parameter:
 ---
 
 ## 📁 Struktur Folder
-├───backend
-│   │   .env
-│   │   main.py
-│   │   requirements.txt
-│   │   runtime.txt
-│   │   
-│   ├───ml
-│   │   │   check_npm_range.py
-│   │   │   connect.py
-│   │   │   predict.py
-│   │   │   preprocessing.py
-│   │   │   save_encoder.py
-│   │   │   save_scaler.py
-│   │   │   test_load.py
-│   │   │   test_preprocess.py
-│   │   │   train_class.py
-│   │   │   train_regression.py
-│   │   │   validate_model.py
-│   │   │
-│   │   └───__pycache__
-│   │           connect.cpython-312.pyc
-│   │           preprocessing.cpython-312.pyc
+
+```text
+.
+├── backend
+│   ├── .env
+│   ├── main.py
+│   ├── requirements.txt
+│   ├── runtime.txt
 │   │
-│   └───__pycache__
-│           main.cpython-312.pyc
+│   ├── ml
+│   │   ├── check_npm_range.py
+│   │   ├── connect.py
+│   │   ├── predict.py
+│   │   ├── preprocessing.py
+│   │   ├── save_encoder.py
+│   │   ├── save_scaler.py
+│   │   ├── test_load.py
+│   │   ├── test_preprocess.py
+│   │   ├── train_class.py
+│   │   ├── train_regression.py
+│   │   ├── validate_model.py
+│   │   └── __pycache__
+│   │       ├── connect.cpython-312.pyc
+│   │       └── preprocessing.cpython-312.pyc
+│   │
+│   └── __pycache__
+│       └── main.cpython-312.pyc
 │
-└───database_NPM
-    │   docker-compose.yml
-    │   NPM.xlsx
-    │   NPM_202512281546.sql
-    │
-    └───init
+└── database_NPM
+    ├── docker-compose.yml
+    ├── NPM.xlsx
+    ├── NPM_202512281546.sql
+    └── init
+
 ---
 
 ## 🖥️ Spesifikasi Sistem
