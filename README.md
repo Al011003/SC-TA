@@ -67,7 +67,6 @@ Untuk mengatasi **class imbalance**, digunakan parameter:
 
 
 
-```markdown
 ## 📁 Struktur Folder
 
 ```text
@@ -81,7 +80,10 @@ Untuk mengatasi **class imbalance**, digunakan parameter:
 │   ├── ml
 │   │   ├── train_class.py
 │   │   ├── train_regression.py
-│   │   └── preprocessing.py
+│   │   ├── preprocessing.py
+│   │   ├── connect.py
+│   │   ├── predict.py
+│   │   └── validate_model.py
 │   │
 │   └── __pycache__
 │       └── main.cpython-312.pyc
@@ -90,6 +92,7 @@ Untuk mengatasi **class imbalance**, digunakan parameter:
     ├── docker-compose.yml
     ├── NPM.xlsx
     └── init
+```
 
 
 ## 🖥️ Spesifikasi Sistem
@@ -126,8 +129,11 @@ python train_regression.py
 
 Model yang telah dilatih akan disimpan dalam format .pkl.
 
+```
 
 📊 Output
+```
+
 
 Model regresi NPM (model_npm.pkl)
 
@@ -136,8 +142,10 @@ Model klasifikasi REVNEG (model_revneg.pkl)
 Model klasifikasi NETPROFNEG (model_netprofneg.pkl)
 
 Evaluasi performa model (accuracy, R², MAE, RMSE)
+```
 
 🎓 Konteks Akademik
+```
 
 Repository ini dikembangkan untuk keperluan:
 
@@ -146,8 +154,11 @@ Tugas Akhir / Skripsi
 Penelitian analisis kinerja keuangan
 
 Eksperimen machine learning pada data time-series keuangan
+```
 
 👤 Author
+```
 
 Al Farhad
 Machine Learning & Backend Enthusiast
+```
